@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+          # = id
+            . = class
+            :  = pseudo class
+            :: = pseudo element
+            >   = children */
+        
+        a {
+            text-decoration: none;
+            color: blue;
+            transition: color 0.5s;
+            font-weight: bold;
+        }
+        a:hover {
+        color: red;text-decoration: underline;
+        color: black;
+        }
+        a.especial::before{
+            content: '☭';
+        }
+        a.especial::after {
+            content: '☭' '[link]';
+        }
+        a:active {
+            color: chocolate;
+            transition: color 0.5s;
+        }
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }    
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/paulove2308">Repositório GitHub</a></li>
+        <li><a href="https://www.instagram.com/paulo.bigliardi/" class="especial">Instagram</a></li>
+        <li><a href="https://x.com/Pauloqbigliardi">Twitter</a></li>
+    </ul>
+</body>
+</html>
