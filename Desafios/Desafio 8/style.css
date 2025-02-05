@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 60px;
+    font-variant: small-caps;
+
+}
+
+header > p {
+    padding-bottom: 60px;
+
+}
+body {
+    min-height: 100vh;
+    background-color: dark;
+}
+
+ header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline; 
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    line-height: 2em;
+    padding-left: 3px;
+}
+section.poema {
+    background-color: white;
+    color: black;
+}
+ .poemaimg {
+    background-color: darkgray;
+    color: white;
+    
+ }
+
+ .poemaimg > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+ }
+#p1 {
+
+}
+
+#p2 {
+
+}
+
+#p3 {
+
+}
+
+#p4 {
+
+}
+
+footer {
+background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
