@@ -66,10 +66,10 @@ section.poema {
  }
 
  .poemaimg > p {
-    display:inline-block;
+    display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
- }
+  }
 
 
 footer {
