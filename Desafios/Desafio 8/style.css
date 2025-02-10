@@ -55,6 +55,11 @@ section {
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
+
+section > p{
+    padding-bottom: 2em;
+}
+
 section.poema {
     background-color: white;
     color: black;
@@ -62,16 +67,31 @@ section.poema {
  .poemaimg {
     background-color: darkgray;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-size: cover;
+    background-attachment: fixed;
     
  }
 
  .poemaimg > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.459);
+    text-shadow: 1px 1px 0px black ;
   }
 
+#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
 
+}
+
+#img2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: bottom center;
+    background-size: cover;
+}
 footer {
 background-color: black;
     color: white;
